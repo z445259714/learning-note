@@ -1,0 +1,15 @@
+{
+    "plugins": ["-lunr", "-search", "search-pro", "chapter-fold", "advanced-emoji", "flexible-alerts", "pageview-count", "code", "back-to-top-button", "tbfed-pagefooter", "popup", "page-toc-button"],
+	"pluginsConfig": {
+        "tbfed-pagefooter": {
+            "copyright":"Copyright &copy zcf.com 2021",
+            "modify_label": "该页面最后修改于：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+		"page-toc-button": {
+            "maxTocDepth": 2,
+            "minTocSize": 2
+        },
+		"chapter-fold":{}
+    }
+}
